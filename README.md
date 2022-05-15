@@ -15,6 +15,7 @@ o	Left bar includes the data of the current user
 o	Right bar is a “To Do List” that manages the tasks to the user using (In Progress - Done) boxes to describe which tasks he has ended and which ones should end them.
 o	Middle part includes the “Farfeshny” button which fires the robot process that helps the user to get videos about the interests of the current user
 •	“UpdateInfo” Page is a page that updates the current user Information.
+
 Functional Requirements:
 •	We used to ask if the localstorage includes the key that includes of all users and if it isn’t exist, we set item with “allUsers” key.
 •	Every time the user tries to use register page, we get all the users in an array and after the user sign up, we push in the array the new user, then we set it again in the localstorage with the same key.
