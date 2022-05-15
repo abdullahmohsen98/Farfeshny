@@ -5,16 +5,16 @@ Aim:<br>
 You read all of this and haven't signed up till now?
 
 Description:<br>
-•	This website helps users to get something to do depends on what they are interested in.
-•	The website starts with home page which has the aim of the project and a small Robot in the right bottom part when the user clicks on it… a robot appear asks him to join us with new profile or login with his account.
-•	“AboutUS” page includes the creators of this website.
-•	“ContactUS” is a validated form that takes a feedback.
-•	“Login” and “Register” Pages helps the user to enter to his profile if he has one or he need to make a new one.
+•	This website helps users to get something to do depends on what they are interested in.<br>
+•	The website starts with home page which has the aim of the project and a small Robot in the right bottom part when the user clicks on it… a robot appear asks him to join us with new profile or login with his account.<br>
+•	“AboutUS” page includes the creators of this website.<br>
+•	“ContactUS” is a validated form that takes a feedback.<br>
+•	“Login” and “Register” Pages helps the user to enter to his profile if he has one or he need to make a new one.<br>
 •	“Profile” Page is a user profile which do many tasks:
 o	Left bar includes the data of the current user
 o	Right bar is a “To Do List” that manages the tasks to the user using (In Progress - Done) boxes to describe which tasks he has ended and which ones should end them.
 o	Middle part includes the “Farfeshny” button which fires the robot process that helps the user to get videos about the interests of the current user
-•	“UpdateInfo” Page is a page that updates the current user Information.
+•	“UpdateInfo” Page is a page that updates the current user Information.<br>
 
 Functional Requirements:<br>
 •	We used to ask if the localstorage includes the key that includes of all users and if it isn’t exist, we set item with “allUsers” key.
