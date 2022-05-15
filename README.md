@@ -1,10 +1,10 @@
 # Farfeshny
 
-Aim:
+Aim:<br>
 •	Finding something to do After exhausting day Requires Finding a good Exercises to do so, if you let me Show you what I got in my website... I’m sure that you will Never feel exhausted.
 You read all of this and haven't signed up till now?
 
-Description:
+Description:<br>
 •	This website helps users to get something to do depends on what they are interested in.
 •	The website starts with home page which has the aim of the project and a small Robot in the right bottom part when the user clicks on it… a robot appear asks him to join us with new profile or login with his account.
 •	“AboutUS” page includes the creators of this website.
@@ -16,7 +16,7 @@ o	Right bar is a “To Do List” that manages the tasks to the user using (In P
 o	Middle part includes the “Farfeshny” button which fires the robot process that helps the user to get videos about the interests of the current user
 •	“UpdateInfo” Page is a page that updates the current user Information.
 
-Functional Requirements:
+Functional Requirements:<br>
 •	We used to ask if the localstorage includes the key that includes of all users and if it isn’t exist, we set item with “allUsers” key.
 •	Every time the user tries to use register page, we get all the users in an array and after the user sign up, we push in the array the new user, then we set it again in the localstorage with the same key.
 •	When the user enter the login page we get all the users again to check if this user already exist or not
