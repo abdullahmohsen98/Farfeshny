@@ -1,7 +1,7 @@
 # Farfeshny
 ![Home](https://user-images.githubusercontent.com/77888340/168500576-11930e0a-569e-4068-bf6d-912bc1f93455.JPG)
 
-### This is a web application for entertainment such as Finding something to do After exhausting day Requires Finding a good Exercises to do so, if you let me Show you what I got in my website... I’m sure that you will Never feel exhausted.
+### This is a web application for entertainment such as Finding something to do After exhausting day Requires Finding a good Exercises to do so, if you let me Show you what I got in my website... I’m sure that you will Never feel exhausted.<hr>
 
 
 # Description:
@@ -16,7 +16,7 @@
   <li> Left bar includes the data of the current user.</li>
   <li> Right bar is a “To Do List” that manages the tasks to the user using (In Progress - Done) boxes to describe which tasks he has ended and which ones should end them.</li>
   <li> Middle part includes the “Farfeshny” button which fires the robot process that helps the user to get videos about the interests of the current user.</li>
-</ol>
+</ol><hr>
 
 
 # Functional Requirements:
@@ -26,7 +26,7 @@
 #### • When the user enters his profile directly we create a session storage that store the current user to help us in the update info part.
 #### • We also use the localstorage to store the index of the current user in case he updated his info to get the same index in the array (stored in LocalStorage) to replace it.
 #### • Logout button used to remove item from the session storage.
-#### • To Do List button creates a new element with dynamic id to help us get this element in the JS to transfer it in the done section, and the same in the transferring to done to help us to get him back into In Progress section.
+#### • To Do List button creates a new element with dynamic id to help us get this element in the JS to transfer it in the done section, and the same in the transferring to done to help us to get him back into In Progress section.<hr>
 
 
 # Concepts Covered
