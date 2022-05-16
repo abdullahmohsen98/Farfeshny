@@ -1,7 +1,7 @@
 # Farfeshny
 ![Home](https://user-images.githubusercontent.com/77888340/168500576-11930e0a-569e-4068-bf6d-912bc1f93455.JPG)
 
-### This is a web application for entertainment such as Finding something to do After exhausting day Requires Finding a good Exercises to do so, if you let me Show you what I got in my website... I’m sure that you will Never feel exhausted.<hr>
+### This is a web application for entertainment such as finding something to do after exhausting day through finding a good exercises to do so, if you let me Show you what I got in my website... I’m sure that you will never feel exhausted.<hr>
 
 
 # Description:
