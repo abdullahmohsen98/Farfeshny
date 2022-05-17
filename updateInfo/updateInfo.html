@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Updating Info</title>
+    <link rel="stylesheet" href="../css/updateInfoStyle.css">
+</head>
+<body>
+    
+    <section id="myBody">
+
+        <div>
+
+            <article class="formRow">
+                <label for="userName">User Name</label>
+                <input type="text" placeholder="at Least 3 Characters" name="userName" id="userName" />
+            </article>
+    
+            <article class="formRow">
+                <label for="userPassword">Password</label>
+                <input type="password" placeholder="Password" name="userPassword" id="userPassword" />
+            </article>
+    
+            <article class="formRow">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword" />
+            </article>
+
+            <article class="formRow">
+                <label>Interests</label>
+                <input type="checkbox" value="reading" name="interest" id="reading">Reading <br>
+                <input type="checkbox" value="football" name="interest" id="football">Football <br>
+                <input type="checkbox" value="music" name="interest" id="music">Music <br>
+
+            </article>
+
+
+            <article class="formRow">
+                <button id="update">Update Info</button>
+                <button id="cancel">Cancel</button>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <script src="../js/updateInfoJS.js"></script>
+</body>
+</html>

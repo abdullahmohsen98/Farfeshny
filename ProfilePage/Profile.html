@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../css/ProfileStyle.css">
+</head>
+<body>
+    
+    <div class="leftcontainer">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img id="profileimg" src="../Resources/avatar.png" alt="Avatar" style="max-width:100%;height:auto;">
+                </div>
+                <div class="flip-card-back">
+                    <h4>Hi There, MY Friend</h1> <br>
+                    <p>We are Farfeshny Group</p>
+                    <p>Working in Farfsha</p><br>
+                    <h4>We're glad to see you here</h4><br>
+                    <h3>Enjoy..</h1> <br>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="profilepicture">
+            <img class="picture" src="resources/icon.png" alt="user avatar">
+        </div> -->
+        <br>
+        <h4 style="text-align:center; text-decoration: underline;">"User Profile Information"</h2>
+
+        <div class="card">
+            <p class="username">- User Name : <span id="username"> TEST</span> </p>
+            <!-- <p class="userage">- User Age : <span id="username"> TEST</span> </p> -->
+            <p class="useractivities">- User Activities : <span id="useractivity"> TEST</span></p>
+           
+        </div>
+ 
+        <div class="butt1">
+            <button id="updateinfo" style="border-left:2px solid black; margin-right: 30px;"> Update Info</button>
+        </div>
+
+        <div class="butt1">
+            <button id="logout" onclick="logout()" style="border-left:2px solid black;"> LogOut</button>
+        </div>
+        
+    </div>
+    
+    <section class="middlePart">
+        <div id="ropotPart">
+
+            <figure id="ropotFigure">
+                <img src="../Resources/face.png" width="250" alt="Ropot Photo" />
+                <figcaption>Test</figcaption>
+            </figure>
+
+        </div>
+
+        <button id="test" class="farfeshnyBtn">فـرفـشـنـي</button>
+    </section>
+
+    <div class="rightcontainer">
+        <div id="listssss" style="width: auto; height: 100%; display: inline;" style="overflow: visible;">
+            <div class="mytodo">MY TO-DO-LIST</div>
+            <div class="mainlist" >
+                <div class="list_description" style="background-color:purple">
+                    To Do
+                </div>
+
+                <div class="addcard"   >
+                    <textarea id="textarea"></textarea>
+                    <div>
+                        <button id="addbutton2"> Submit</button>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="mainlist" >
+                <div class="list_description" style="background-color: #27A401;">In Progress</div>
+                
+                <div class="addcard" id="addcard">
+
+                </div>
+
+            </div>
+
+
+
+            <div class="mainlist" >
+                <div class="list_description" style="background-color: #104CED;">
+                    Done
+                </div>
+                
+                <div id="finishedcard" >
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="footer">
+
+        <div id="end">CopyRights Reserved &copy; For <span id="farfsh">فرفشني</span> </div>
+    </div>
+
+    <script src="../js/ProfileJS.js"></script>
+    <script src="../js/leftAndRight.js"></script>
+</body>
+</html>

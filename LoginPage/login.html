@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="../css/logincss.css">
+<title> Login Page </title>
+
+</head>  
+<body>  
+    <form action="../index.html" method="Post">
+        <div class="tweet">
+            <a href="#"><i class="fa fa-facebook-square"></i></a>
+            <a href="#"><i class="fa fa-instagram" ></i></a>
+            <a href="#"><i class="fa fa-twitter-square"></i></a>
+        </div>
+
+         <div class="input">
+            <h2>Welcome Back</h2>
+            <input type="text" placeholder="Enter Username" name="username" required autocomplete="off" id="myUser" onblur="disName()" onfocus="this.value=''; this.select()">
+            <img id="validate">
+
+             <input type="password" id="psw" name="password"  title="Must contain at least 8 number or letters" required placeholder="Enter Your password" onblur="disPass()" onfocus="this.value=''"
+             disabled >
+            <img id="validate2">
+            <br>
+            <span id="invalid" style="color: red;"></span>
+            <br>
+
+
+            <input  type="button" onclick="myfunction()" class="btnlogIn" value="Login"> <br>
+            </div>
+            
+            <input type="checkbox" id="check">
+            <label for="check"> Remember me</label>
+            <a href="#" id="forget"> Forgotten password? </a><br>
+    </form>   
+  <script type="text/javascript" src="../js/log.js"></script>
+</body>   
+</html>

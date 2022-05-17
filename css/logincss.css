@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://images.pexels.com/photos/1883386/pexels-photo-1883386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+
+ 
+}
+
+form {
+  background-color: rgba(128, 0, 128,.9);
+  width: 500px;
+  height: 400px;
+  position: relative;
+  border-radius: 25px;
+  align-items: center;
+  text-align: center;
+  margin: 90px;
+  padding: 20px;
+
+ 
+}
+
+input[type=text],input[type=password]{
+        text-align: center;
+        background-color: #ffffff;
+        width: 70%; 
+        height: 23px;
+        padding: 10px;
+        margin: 20px;
+        border: none;
+        border-radius: 25px; 
+        outline: none;
+        
+} 
+
+.tweet{
+  display: flex;
+  justify-content: center;
+  grid-gap: 25px;
+  border-radius: 25px;
+  font-size:40px;color:white;
+  
+}
+a{
+    color: white;
+    position: center;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.btnlogIn{
+background-color:rgba(230, 46, 0);
+width: 30%;
+height: 50px;
+color: white;
+font-size: 25px;
+outline: none;
+cursor: pointer;
+margin-top:25px;
+margin-bottom: 15px;
+border-radius: 25px;
+}
+
+#forget{
+  color: #ff3300;
+}
+
+/*****************************************
+--------------------hover----------------*/
+#forget:hover{
+  color:#d9d9d9;
+}
+
+a:hover{
+  color: rgb(255, 71, 26);
+}
+h2 {
+  color: rgb(255, 64, 0);
+  margin-bottom: 0px;
+}
+::placeholder{
+  color: rgb(153, 153, 153);
+  font-size: 20px;
+  text-align: center;
+}
+
+label{
+  color:#d9d9d9;
+}

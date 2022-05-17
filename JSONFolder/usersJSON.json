@@ -1,0 +1,28 @@
+{
+    "users":[
+        {
+            "userName": "Mahmoud",
+            "password": "1234",
+            "interest": ["music","football"],
+            "lasLogin": null
+        },
+        {
+            "userName": "Mostafa",
+            "password": "abcd",
+            "interest": ["football"],
+            "lasLogin": null
+        },
+        {
+            "userName": "Abdullah",
+            "password": "4567",
+            "interest": ["music"],
+            "lasLogin": null
+        },
+        {
+            "userName": "Ali",
+            "password": "zxczxc",
+            "interest": ["music","football","reading"],
+            "lasLogin": null
+        }
+    ]
+}

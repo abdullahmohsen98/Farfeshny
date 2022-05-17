@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="../css/contactUs.css">
+    <meta charset="UTF-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Abdullah">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="../Resources/Logo.png" alt="Logo Image">
+        <nav>
+            <ul class="nav_links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../AboutUsPage/aboutUs.html">About us</a></li>
+                <li><a href="#">Contact us</a></li>
+
+        </nav>
+        <a class="cta" href="../LoginPage/login.html"><button>Login</button></a>
+        <a class="cta" href="../RegisterPage/register.html"><button>Register</button></a>
+        <div class="clear"></div>
+    </div>
+
+    
+    <div class="myBody">
+        <div class="displayedClass" onclick="myFunction()">
+            <div class="image">
+                <img id="photo" src="../Resources/robotlonliness.jpg" alt="Ropot" />
+            </div>
+            <div class="body">
+                <h2> أهلا ي فندم بيك دخلت برجلك يبقى قاصد تفرفش ومعندكش وقت تضيعه فى نكد كدا انت جيت للمكان الصح </h2>
+            </div>
+            <hr>
+            <div class="loginButtons">
+                <h2>هاااا هتسجل ولا معاك أكونت ي بيه </h2>
+                <a href="../LoginPage/login.html"><button>Login</button></a>
+                <a href="../RegisterPage/register.html"><button>Register</button></a>
+            </div>
+            <div class="x">X</div>
+        </div>
+
+        <div id="sitehint">
+                <h1>Contact Us</h1>
+                
+                <form method="POST">
+                    <div class="text_field">
+                        <input id="conName" type="text" placeholder="Enter Your Name" onblur="dissContactName()"
+                        onfocus="this.value=''; this.select()" required>
+                        <img id="validate"  >
+                        <span></span>
+                        <!-- <label>Name</label> -->
+                    </div>
+                    <div class="text_field">
+                        <input id="conMail" type="email" placeholder="Enter your Email" onblur="dissContactMail()"
+                        onfocus="this.value=''; this.select()" required>
+                        <img id="validate2">
+                        <span></span>
+                        <!-- <label>Email</label> -->
+                    </div>
+                    <div class="text_field">
+                        <input id="conPhone" type="tel" placeholder="Enter Your Phone" onblur="dissContactPhone()"
+                        onfocus="this.value=''; this.select()"  required>
+                        <img id="validate3">
+                        <span></span>
+        
+                        <!-- <label>Phone</label> -->
+                    </div>
+                    <div class="text_field">
+                        <textarea  rows="4" cols="50" placeholder="Type Your Messege Here..."></textarea>          
+                        <span></span>
+                        <!-- <label>Text Area</label> -->
+                    </div>
+                    <div>
+                        <p1><b>How do you know our website ?</b></p1><br><br>
+                        <input type="checkbox" value="ITI">
+                        <label > ITI</label><br>
+                        <input type="checkbox" value="Facebook">
+                        <label> Facebook</label><br>
+                        <input type="checkbox" value="Friend">
+                        <label> Friend</label>
+                    </div><br>
+                    <div>
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+
+            </div>
+    <footer>
+        <div id="footer">
+            <a href="#asd">English(uk)</a><a href="#asd">Francias(France)</a>
+            <a href="#asd">Bahasa Indonesia</a><a href="#asd">Italiano</a>
+            <a href="#asd">Türkiye</a><a href="#asd">भारत गणराज्य</a>
+            <a href="#asd"><button>+</button></a>
+            <hr><br><a href="#asd">Login</a>
+            <a href="#asd">Sign Up</a><a href="#asd">Watch</a><a href="#asd">Facebook</a>
+            <a href="#asd">Service</a><a href="#asd">Pages</a><a href="#asd">Page Categorie</a>
+            <a href="#asd">Places</a><a href="#asd">Games</a><a href="#asd">Location</a>
+            <a href="#asd">Portal</a><a href="#asd">Instagram</a><a href="#asd">Local</a>
+            <a href="#asd">Create Page</a><a href="#asd">Create Ad</a><a href="#asd">Help</a>
+            <a href="#asd">Groups</a><a href="#asd">Privacy</a></a><a href="#asd">Market Place</a></a>
+            <a href="#asd">Facebook Pay</a></a><a href="#asd">Privacy</a><a href="#asd">Careers</a>
+            </a><a href="#asd">Oculus</a><a href="#asd">Developers</a> <a href="#asd">About</a>
+            <a href="#asd">Jobs</a><a href="#asd">Cookies</a><a href="#asd">Terms</a>
+            <a href="#asd">Twitter</a><a href="#asd">Facebook Lite</a><a href="#asd">Messenger</a>
+            <a href="#asd"><img class="DIV" src="../Resources/Robots.jpg" alt="Logo Image"></a>
+
+            <div class="insta">
+                <a href="#asd"><i class="fa fa-facebook-f" style="font-size:48px;color:red;"></i></a>
+                <a href="#asd"><i class="fa fa-whatsapp" style="font-size:48px;color:green"></i></a>
+                <a href="#asd"><i class="fa fa-instagram" style="font-size:48px;color:red"></i></a>
+
+                <p>© 2021 <b>فرفشنى</b> - All Rights Reserved</p>
+            </div>
+    </footer>
+    <script src="../js/contactUs.js"></script>
+</body>
+
+</html>

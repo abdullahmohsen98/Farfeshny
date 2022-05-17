@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Register Page</title>
+	<link rel="stylesheet" type="text/css" href="../css/register.css">
+</head>
+
+<body>
+
+	<form action="#" method="post">
+		<img src="../Resources/avatar.png" class="avatar">
+		<h2>Welcome</h2>
+		<!--===========================================-->
+
+		<div class="input-div ">
+			<div class="i">
+				<i class="fa fa-user icon"></i>
+			</div>
+			<div>
+				<!--<h5>Username</h5>-->
+				<!-- <input id="regname" type="text" class="input" placeholder="Type Your Name" required pattern="^(?=.{3,20}$)(?![_.])(?!.*[_.]{2})[a-zA-Z0-9._]+(?<![_.])$"> -->
+				<input id="regname" type="text" class="input" placeholder="Type Your Name" onblur="dissRegName()"
+					onfocus="this.value=''; this.select()" required>
+					<img id="validate">
+			</div>
+		</div>
+		<!--===========================================-->
+		<div class="input-div">
+			<div class="i">
+				<i class="fa fa-envelope icon"></i>
+			</div>
+			<div>
+				<!--<h5>Email</h5>-->
+				<input id="regemail" type="Email" class="input" placeholder="Type Your E-mail" onblur="disRegEmail()"
+				onfocus="this.value=''; this.select()" required>
+				<img id="validate3">
+			</div>
+		</div>
+		<!--===========================================-->
+
+		<div class="input-div">
+			<div class="i">
+				<i class="fa fa-key icon"></i>
+			</div>
+
+			<div>
+				<!--<h5>password</h5>-->
+				<input id="regpsw" type="password" class="input" placeholder="Enter Your Password" required  onblur="disRegPass()" onfocus="this.value=''"
+				disabled>
+				<img id="validate2">
+			</div>
+			<!-- <span id="invalid" style="color: red; font-display: unset;"></span> -->
+		</div>
+		<!--===========================================-->
+
+		<div class="input-div">
+			<div class="i">
+				<i class="fa fa-key icon"></i>
+			</div>
+			<!--<h5>Confirm password</h5>-->
+			<div>
+				<input type="password" class="input" placeholder="Confirm Password" required id="confpass" onblur="RegConfirmPass()" onfocus="this.value"
+				 >
+				<img id="validate4">
+			</div>
+		</div>
+		<!--===========================================-->
+		<div>
+			<span>Interested</span><br>
+			<label for="read">Reading</label>
+			<input type="checkbox" value="reading" name="intereset" id="reading" >
+			<label for="sports">Football</label>
+			<input type="checkbox" value="football" name="intereset" id="football" >
+			<label for="movies">Music</label>
+			<input type="checkbox" value="music" name="intereset" id="music" >
+
+		</div>
+
+		<input type="button" class="btn" value="Sign Up" onclick="myfunction()">
+
+	</form>
+	<script type="text/javascript" src="../js/regist.js"></script>
+</body>
+
+</html>

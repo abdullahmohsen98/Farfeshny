@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",sans-serif;   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg,#2980b9,#8e44ad);
+    font-family: "Montserrat",sans-serif;  
+}
+
+.clear{
+    clear: both;
+}
+li,a{
+font-family: "Montserrat",sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #edf0f1;
+text-decoration: none;
+}
+
+.header{
+background: rgb(18, 19, 19);
+display: flex;
+justify-content: flex-end;
+align-items: center;
+padding: 10px;
+}
+
+
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 170px;
+    height: 90px;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li:nth-child(1){
+    padding: 0px 20px 0 0;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;  
+}
+
+.nav_links li a:hover{
+  color: #0088a9;
+}
+.Signup_link a{
+    color: #2691d9;
+    text-decoration: none;
+}
+
+.signup_link a:hover{
+    
+    text-decoration: underline;
+} 
+.Signup_link{
+    margin: 20px 7px;
+text-align: center;
+font-size: 16px;
+color: #222222; 
+}
+.nav_links {
+    list-style: none;
+  
+} 
+
+button{
+    margin-right: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;  
+}
+
+button:hover{
+    background-color: rgba(0, 136, 169, 0.8);
+    width: 130px;
+}
+h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#sitehint{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+    .displayedClass{
+        width: 500px;
+        padding: 10px;
+        background-color: brown;
+        margin: auto;
+        display: none;
+        position: absolute;
+        top: 56%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border-radius: 20%; 
+        height: 400px;
+           
+}
+.image{
+    text-align: center;
+}
+
+.photo{
+    width:75%;
+    height:180px;
+    border-radius: 15%;   
+} 
+
+.body{
+    padding: 15px;
+}
+
+.loginButtons{
+    text-align: center;
+}
+.loginButtons a button{
+     padding: 10px 30px; 
+    text-align: center;
+    color: white; 
+    margin-top: 20px;
+   
+}
+
+.x{
+    position: absolute;
+    bottom: 95%;
+    left: 90%;
+    padding: 5px;
+    background-color: rgb(185, 144, 29);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.DIV{
+    width: 90px; 
+    height: 90px;
+    position: fixed; 
+    right: 20px; 
+    bottom: 20px;
+    border-radius: 50%;
+}
+.sitehint-content{
+    border-radius: 38px;
+    border: 5px solid  black;
+    margin: 10px;
+    background-color: salmon;
+    text-align: center;
+}
+
+#picturestyle{
+    border-radius: 30px;
+    width:307px;
+    height:320px
+}
+
+#iconstyle{
+    
+    width: 90px; 
+    height: 90px;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+    border-radius: 50%;  
+}
+
+p{
+    color: white;
+    
+}
+.insta{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.insta a i{
+    margin-left: 15px;
+}
+footer a{
+    margin-right: 15px;
+}
+
+footer{
+    background: rgb(12, 9, 9);
+      align-items: center;
+  }
+
+footer{
+    
+    padding: 15px;
+    height: 275px;
+    text-align: center;
+    margin-top: 30px;
+} 
